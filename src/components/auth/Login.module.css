@@ -1,0 +1,68 @@
+.loginPage {
+  background-color: #f6f6f6;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginCard {
+  border: 1px solid silver;
+  background-color: #fff;
+  padding: 20px 35px;
+  border-radius: 10px;
+}
+
+.loginCard h2 {
+  color: rgb(93, 93, 93);
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e98605;
+  padding: 10px;
+  width: fit-content;
+  margin: 0 auto;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.chacha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: fit-content;
+  margin: 0 auto;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+ 
+}
+
+.button:hover {
+  background: #c75022;
+}
+.chacha :hover{
+  background: #c75022;
+  width: 110px;
+  border-radius: 90px;
+}
+.button img {
+  width: 30px;
+  margin-right: 10px;
+}
+.chacha img {
+  width: 80px;
+  margin-right: 10px;
+  border: 1px solid rgb(154, 152, 151);
+  padding: 0.5rem;
+  border-radius: 50px;
+}
